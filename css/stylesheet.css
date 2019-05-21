@@ -35,9 +35,21 @@ body {
 
 #vor {
 	width: 10%;
-	transition: all 1s;
+	animation: vor 1.5s ease-in-out infinite;
+
 }
 
+@keyframes vor {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 
 
 
@@ -48,10 +60,21 @@ body {
 #dem {
 
 	width: 9%;
-	transition: all 1s;
+	animation: dem 1.5s 0.75s ease-in-out infinite;
 
 }
 
+@keyframes dem {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 
 
 
@@ -63,10 +86,21 @@ body {
 #neuen {
 
 	width: 22%;
-	transition: all 1s;
+	animation: neuen 1.5s 0.40s ease-in-out infinite;
+
 }
 
-
+@keyframes neuen {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.02);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 
 
 /* Blokken */
@@ -338,11 +372,10 @@ body {
 		transform: translate(15%, 155%);
 	}
 
-
 	#vor {
 		width: 30%;
-
 	}
+
 
 
 
