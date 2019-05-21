@@ -1,0 +1,620 @@
+/* Algemeen */
+
+body {
+
+	background-color: #e8d3cb;
+	height: 1000px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	margin-top: -5px;
+}
+
+
+
+
+
+/* Header */
+
+#divhead {
+	transform: translate(7.6%, 15.5%);
+	z-index: 100;
+	position: relative;
+}
+
+#head {
+
+	width: 32%;
+}
+
+
+
+
+#divvor {
+	transform: translate(47.6%, -423%);
+}
+
+#vor {
+	width: 10%;
+	transition: all 1s;
+}
+
+
+
+
+#divdem {
+	transform: translate(58.5%, -530%);
+}
+
+#dem {
+
+	width: 9%;
+	transition: all 1s;
+
+}
+
+
+
+
+#divneuen {
+
+	transform: translate(67.5%, -386%);
+}
+
+#neuen {
+
+	width: 22%;
+	transition: all 1s;
+}
+
+
+
+
+/* Blokken */
+
+#divblok_een {
+
+	transform: translate(4.4%, -47.2%);
+
+}
+
+.blokker_een {
+	width: 11%;
+	transition: all 1s;
+}
+
+.blokker_eeen:hover {
+	transform: rotate(360deg);
+}
+
+
+
+
+#divblok_twee {
+
+	transform: translate(17.8%, -805%);
+}
+
+#blok_twee {
+	width: 54%;
+}
+
+
+
+
+#divblok_drie {
+	transform: translate(5%, -682%);
+}
+
+#blok_drie {
+	width: 88%;
+	z-index: -1;
+}
+
+
+
+
+/* Auto's */
+
+#divautoeen {
+	transform: translate(37.8%, -362.8%);
+	z-index: 1000;
+	position: relative;
+}
+
+#autoeen {
+	width: 34%;
+	transition: all 3s;
+	z-index: 10000;
+	position: relative;
+}
+
+
+
+
+#divautotwee {
+
+	transform: translate(5.1%, -180%);
+	z-index: 100;
+	position: relative;
+}
+
+#autotwee {
+	width: 67%;
+	z-index: 1;
+	transition: all 3s;
+}
+
+
+
+
+
+/* Mannetjes */
+
+#divmannetje_een {
+
+	transform: translate(72.1%, -390.9%);
+}
+
+#mannetje_een {
+
+	width: 7%;
+}
+
+#divarm_een {
+	transform: translate(75.2%, -1119%);
+	position: relative;
+}
+
+.arm_een {
+	width: 4%;
+	transition: all 1s;
+	animation: waveuno 1.5s ease-in-out infinite;
+
+}
+
+@keyframes waveuno {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-10deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+
+
+#divmannetje_twee {
+
+	transform: translate(78%, -511.8%);
+}
+
+
+#mannetje_twee {
+	width: 7.6%;
+}
+
+#divarm_twee {
+
+	transform: translate(81.7%, -1486.5%);
+	position: relative;
+}
+
+.arm_twee {
+	width: 4%;
+	transition: all 1s;
+	animation: wavedos 1.5s ease-in-out infinite;
+
+}
+
+@keyframes wavedos {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-10deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+
+
+#divmannetje_drie {
+
+	transform: translate(84.2%, -620.5%);
+}
+
+#mannetje_drie {
+	width: 8%;
+}
+
+#divarm_drie {
+	transform: translate(87.7%, -1641.3%);
+	position: relative;
+}
+
+.arm_drie {
+	width: 4.5%;
+	transition: all 1s;
+	animation: wavetres 1.5s ease-in-out infinite;
+
+}
+
+@keyframes wavetres {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-10deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+
+
+/* Footer */
+
+#divfooter {
+	transform: translate(9.7%, -907%);
+
+}
+
+.footer {
+	width: 79%;
+	transition: all 1s;
+
+}
+
+.foooter:hover {
+	transform: scale(1.05);
+}
+
+
+
+
+/* Animaties */
+
+.animatiedesktopeen {
+
+	transform: translate(-59%, 0%);
+}
+
+
+.animatiedesktoptwee {
+
+	transform: translate(31.2%, 0%);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+
+	/* algemeen */
+	body {
+
+		background-color: #e8d3cb;
+		height: 1000px;
+		margin-top: -5px;
+		overflow-y: auto;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		margin-bottom: 40px;
+	}
+
+
+
+	/* Header */
+	#divhead {
+		transform: translate(8%, 25.1%);
+
+	}
+
+	#head {
+
+		width: 88%;
+		z-index: 1;
+	}
+
+
+
+
+
+	#divvor {
+
+		transform: translate(15%, 155%);
+	}
+
+
+	#vor {
+		width: 30%;
+
+	}
+
+
+
+	#divdem {
+
+		transform: translate(51%, 20%);
+	}
+
+
+	#dem {
+
+		width: 26%;
+
+	}
+
+
+
+	#divneuen {
+
+		transform: translate(10%, 540%);
+	}
+
+
+	#neuen {
+
+		width: 53%;
+
+	}
+
+
+	/* Blokken */
+	#divblok_een {
+		transform: translate(5.2%, -43.5%);
+
+	}
+
+	.blokker_een {
+		width: 29%;
+
+
+	}
+
+
+	#divblok_twee {
+
+		transform: translate(-10%, 590%);
+	}
+
+	#blok_twee {
+		width: 140%;
+
+	}
+
+
+
+	#divblok_drie {
+
+		transform: translate(-5%, 1200%);
+	}
+
+
+	#blok_drie {
+		width: 150%;
+
+	}
+
+
+
+
+
+
+	/* Auto's */
+	#divautoeen {
+
+		transform: translate(50%, 86%);
+	}
+
+
+	#autoeen {
+		width: 95%;
+		transition: all 2.5s;
+
+	}
+
+
+
+	#divautotwee {
+
+		transform: translate(-65%, 403%);
+	}
+
+
+	#autotwee {
+		width: 120%;
+		z-index: 1;
+		transition: all 2.5s;
+	}
+
+
+
+
+	/* Mannetjes */
+	#divmannetje_een {
+
+		transform: translate(43%, 151.5%);
+	}
+
+
+	#mannetje_een {
+
+		width: 21%;
+
+	}
+
+
+
+
+	#divarm_een {
+
+		transform: translate(54%, 60.5%);
+	}
+
+
+	.arm_een {
+		width: 11.2%;
+		animation: waveone 1.5s ease-in-out infinite;
+
+	}
+
+	@keyframes waveone {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(-6deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+
+
+
+	#divmannetje_twee {
+
+		transform: translate(60%, 4.5%);
+	}
+
+
+	#mannetje_twee {
+		width: 22%;
+
+	}
+
+
+
+
+	#divarm_twee {
+
+		transform: translate(71%, -280.5%);
+	}
+
+
+	.arm_twee {
+		width: 11.2%;
+		animation: wavetwo 1.5s ease-in-out infinite;
+
+	}
+
+	@keyframes wavetwo {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(-6deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+
+
+
+	#divmannetje_drie {
+
+		transform: translate(77%, -132.4%);
+	}
+
+
+	#mannetje_drie {
+		width: 23%;
+
+
+
+	}
+
+
+
+
+	#divarm_drie {
+
+		transform: translate(89%, -640.5%);
+	}
+
+
+	.arm_drie {
+		width: 11%;
+		animation: wavethree 1.5s ease-in-out infinite;
+
+	}
+
+	@keyframes wavethree {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(-6deg);
+		}
+		100% {
+			transform: rotate(0deg);
+		}
+	}
+
+
+
+	/* Footer */
+	#divfooter {
+
+		transform: translate(5%, -260%);
+		margin-bottom: -90px;
+	}
+
+
+	.footer {
+		width: 90%;
+
+	}
+
+
+	/* Animaties */
+	.blok_eent {
+		transform: rotate(360deg);
+	}
+
+	.animate {
+		transform: translate(-120%, 0%);
+	}
+
+	.animatetwee {
+		transform: translate(120.2%, 0%);
+	}
+
+	.armpjeeen {
+		transform: rotate(-6deg);
+	}
+
+	.armpjetwee {
+		transform: rotate(-6deg);
+	}
+
+	.armpjedrie {
+		transform: rotate(-6deg);
+	}
+
+
+	.footeranimatie {
+		transform: scale(1.05);
+	}
+
+
+
+
+}
