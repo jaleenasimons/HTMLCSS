@@ -4,18 +4,30 @@ Artiest: Ashley Havinden
 Afbeelding: http://www.motoringart.info/images/images_artists/HA3.jpg 
 Jaar van publicatie : 1928
 
-Deze advertentie was één van velen die Ashley Havinden heeft ontworpen in deze stijl voor het Amerikaanse automerk Chrysler. Het kleurenpalette is zo klein mogelijk gebleven bij deze illustratie en er is gebruik gemaakt van moderne geometrische vormen die op elkaar uitgelijnd zijn. Deze strakke vormen staan symbool voor het automerk.
+Deze advertentie was één van velen die Ashley Havinden heeft ontworpen in deze stijl voor het Amerikaanse automerk Chrysler. 
+Het kleurenpalette is zo klein mogelijk gebleven bij deze illustratie en er is gebruik gemaakt van moderne geometrische vormen 
+die op elkaar uitgelijnd zijn. Deze strakke vormen staan symbool voor het automerk.
 
 
 
 
 Hoe ik het heb aangepakt:
 
-Ik ben eerst begonnen met de uitwerking van de elementen van de poster in Illustrator, deze heb ik daarna elk apart geëxporteerd als SVG bestand. Vervolgens heb ik deze in mijn HTML document gezet, elke svg in een div. Dit heb ik gedaan, zodat ik transform: translate (x, y); en het animeren met andere transform waarden tegelijk kon gebruiken. Dit is eerst twee keer fout gegaan waarbij ik de svg's eindelijk op hun plek had met transform translate, maar de afbeelding naar de originele positie terug ging in het document wanneer ik andere waarden (als rotate en scale) toevoegde. Nadat ik desktop goed had gepositioneerd ben ik over gegaan naar mobiel, waar ik een apart ontwerp voor had gemaakt, om deze ook goed te positioneren. 
+Ik ben eerst begonnen met de uitwerking van de elementen van de poster in Illustrator, deze heb ik daarna elk apart geëxporteerd 
+als SVG bestand. Vervolgens heb ik deze in mijn HTML document gezet, elke svg in een div. Dit heb ik gedaan, zodat ik transform: 
+translate (x, y); en het animeren met andere transform waarden tegelijk kon gebruiken. Dit is eerst twee keer fout gegaan waarbij 
+ik de svg's eindelijk op hun plek had met transform translate, maar de afbeelding naar de originele positie terug ging in het 
+document wanneer ik andere waarden (als rotate en scale) toevoegde. Nadat ik desktop goed had gepositioneerd ben ik over gegaan 
+naar mobiel, waar ik een apart ontwerp voor had gemaakt, om deze ook goed te positioneren. 
 
-Nadat alles gepositioneerd was ben ik elementen gaan animeren. Voor desktop heb ik gekozen voor een combinatie van hover, keyframes en keydown events die ik op verschillende elementen heb toegepast. Het blok links bovenin reageert op hover, de auto's reageren op de linker en rechter pijltjestoetsen op je toetsenbord (gerealiseerd in javascript) en de mannetjes en 'for dem neuen' animeren met een keyframe animatie. 
+Nadat alles gepositioneerd was ben ik elementen gaan animeren. Voor desktop heb ik gekozen voor een combinatie van hover, keyframes
+en keydown events die ik op verschillende elementen heb toegepast. Het blok links bovenin reageert op hover, de auto's reageren op 
+de linker en rechter pijltjestoetsen op je toetsenbord (gerealiseerd in javascript) en de mannetjes en 'for dem neuen' animeren met
+een keyframe animatie. 
 
-Bij mobiel heb je geen mogelijkheid tot het gebruiken van pijltjes toetsen en hover, daarom heb ik de elementen die gerealiseerd waren op desktop met keydown en hover omgezet naar click met javascript. Om dit te kunnen realiseren heb ik de class met hover moeten verwijderen voor mobiele grootte, omdat deze de click code leek te overrulen. Dit is met veel moeite en probeersels gelukt. 
+Bij mobiel heb je geen mogelijkheid tot het gebruiken van pijltjes toetsen en hover, daarom heb ik de elementen die gerealiseerd 
+waren op desktop met keydown en hover omgezet naar click met javascript. Om dit te kunnen realiseren heb ik de class met hover 
+moeten verwijderen voor mobiele grootte, omdat deze de click code leek te overrulen. Dit is met veel moeite en probeersels gelukt. 
 
 Volgensmij is alles wat ik gebruikt heb vrij basic code, maar genoeg om wat leuke dingen te kunnen doen voor het animeren van elementen. 
 
