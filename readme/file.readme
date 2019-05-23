@@ -54,10 +54,24 @@ Mobiel:
 
 Bronnen:
 
-Afbeelding origineel kunstwerk: http://www.motoringart.info/images/images_artists/HA3.jpg
-Verschillende transform properties van: https://css-tricks.com/almanac/properties/t/transform/
-Informatie over gebruik van SVG: https://css-tricks.com/using-svg/
-Vinden van keycodes: https://keycode.info/
-Keydown event: Eerdere eigen Javascript opdracht (piano)
-Gebruik van div ipv section om svg voor positionering svg's : Tom. 
-Uitschakelen hover op mobile: https://codepen.io/anon/pen/LojwxQ
+- Afbeelding origineel kunstwerk: Havinden, A. (n.d.). HA3 [Afbeelding]. Retrieved May 6, 2019, from 
+  http://www.motoringart.info/images/images_artists/HA3.jpg
+  
+- Verschillende transform properties van: transform | CSS-Tricks. (2018, November 22). Retrieved May 13, 2019, from 
+  https://css-tricks.com/almanac/properties/t/transform/
+  
+- Informatie over gebruik van SVG: Coyier, C. (2019, May 2). Using SVG | CSS-Tricks. Retrieved May 23, 2019, from 
+  https://css-tricks.com/using-svg/
+  
+- Vinden van keycodes: JavaScript Event KeyCodes. (n.d.). Retrieved May 23, 2019, from https://keycode.info/
+
+- Uitschakelen hover op mobile: CAPTAIN ANONYMOUS. (n.d.). Attention Required! | Cloudflare. Retrieved May 23, 2019, from 
+  https://codepen.io/anon/pen/LojwxQ
+  
+- Keydown event: Eerdere eigen Javascript opdracht (piano)
+
+- Gebruik van div ipv section om svg voor positionering svg's : Tom. 
+
+
+
+
